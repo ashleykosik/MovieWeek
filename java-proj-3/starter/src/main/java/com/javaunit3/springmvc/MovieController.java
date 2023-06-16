@@ -63,7 +63,7 @@ public class MovieController {
         return "voteForBestMovie";
     }
 
-    @RequestMapping("/VoteForBestMovie")
+    @RequestMapping("/voteForBestMovie")
     public String voteForBestMovie(HttpServletRequest request, Model model) {
         String movieId = request.getParameter("movieId");
         String voterName = request.getParameter("voterName");
